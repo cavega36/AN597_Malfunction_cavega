@@ -1,0 +1,10 @@
+"0","g <- ggplot(data = d, aes(x = MaxLongevity_m, y = Brain_Size_Species_Mean)) 
+g <- g + geom_point()
+g <- g + geom_smooth(method = ""lm"", formula = y ~ x)
+g <- g + geom_text(aes(label = paste(d, sep = """")),
+  parse = TRUE)
+g <- g + geom_text() + annotate(""text"", label = ""y=1.218x+248.952"", x=200, y=200)
+g
+"
+"2","Error: Aesthetics must be either length 1 or the same as the data (213): label
+"

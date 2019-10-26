@@ -1,0 +1,5 @@
+"0","# Loading in Data"
+"0","library(curl)"
+"0","f <- curl(""https://raw.githubusercontent.com/fuzzyatelin/fuzzyatelin.github.io/master/AN597_Fall19/KamilarAndCooperData.csv"")"
+"0","d <- read.csv(f, header = TRUE, sep = "","", stringsAsFactors = FALSE)"
+"0","head(d)"

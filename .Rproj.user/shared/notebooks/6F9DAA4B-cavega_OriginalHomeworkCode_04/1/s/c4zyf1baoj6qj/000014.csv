@@ -1,0 +1,6 @@
+"0","g <- ggplot(data = d, aes(x = MaxLongevity_m, y = Brain_Size_Species_Mean))"
+"0","g <- g + geom_point()"
+"0","g <- g + geom_point(aes(x = MaxLongevity_m, y = Brain_Size_Species_Mean), colour = ""red"")"
+"0","g <- g + geom_segment(aes(x = MaxLongevity_m, y = Brain_Size_Species_Mean, xend = MaxLongevity_m, yend = Brain_Size_Species_Mean))"
+"0","g <- g + geom_smooth(method = ""lm"", formula = y ~ x)"
+"0","g"
