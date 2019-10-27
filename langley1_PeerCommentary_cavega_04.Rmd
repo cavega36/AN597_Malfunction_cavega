@@ -139,4 +139,4 @@ g
 
 5. On Line 30 in your function, you wrote if pl == 0. Did you mean to write pl or p1? 
 
-6. It's difficult for me to comment on your function in Part 1 becuase I know there are probably so many different ways to write the function so I can't be sure what is right and wrong. Especially since I'm not confident with mine so it's hard to advise you. Hopefully we can review it all together in class! 
+6. It's difficult for me to comment on your function in Part 1 becuase I know there are probably so many different ways to write the function so I can't be sure what is right and wrong. Especially since I'm not confident with mine so it's hard to advise you. Hopefully we can review it all together in class!!
